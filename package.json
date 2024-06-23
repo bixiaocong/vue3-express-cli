@@ -1,0 +1,17 @@
+{
+  "name": "my-scaffold-tool",
+  "version": "1.0.0",
+  "description": "A CLI tool for scaffolding projects from Git repositories.",
+  "main": "index.js",
+  "bin": {
+    "vue3-express": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^8.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.6"
+  }
+}
